@@ -1,0 +1,133 @@
+* {
+  max-width: 449px;
+}
+
+body {
+  background: #191765;
+  position: relative;
+}
+
+.container {
+  max-width: 447px;
+}
+
+#headline,
+#menu,
+#logo,
+#image1,
+#image2 {
+  position: absolute;
+}
+
+#app-bar {
+  margin-top: 20px;
+  height: 40px;
+}
+
+h1,
+h2,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#headline,
+#head,
+#flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#headline {
+  width: 449px;
+}
+
+#menu {
+  padding-top: 5px;
+  height: 30px;
+}
+
+#logo {
+  left: 17px;
+}
+
+#hamb {
+  width: 36px;
+  margin-left: 15px;
+  aspect-ratio: 1;
+  background: linear-gradient(rgb(152, 149, 149) 50%, #0000 0) 0 0/100% 40%;
+  padding-right: 35px;
+}
+
+#head {
+  padding-top: 80px;
+  height: 120px;
+}
+
+h1 {
+  font-size: 33px;
+  color: rgb(132, 142, 151);
+  line-height: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+}
+
+#image1,
+#image2 {
+  filter: blur();
+  height: 220px;
+  width: 224px;
+}
+
+#image1 {
+  padding-left: 296px;
+  left: -320px;
+}
+
+#image2 {
+  right: -44px;
+}
+
+#textpart {
+  width: 325px;
+  height: 700px;
+  text-align: center;
+  vertical-align: top;
+}
+
+#vector {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+p {
+  color: rgb(235, 234, 240);
+  text-align: center;
+  padding: 18px 18px 16px 1px;
+}
+
+.flex-container {
+  flex-wrap: wrap;
+  width: 320px;
+  height: 320px;
+  padding: 500px 35px 35px auto;
+}
+
+table {
+  color: aliceblue;
+  text-align: center;
+  justify-items: first baseline;
+}
+
+td {
+  color: #9797a3;
+  padding-top: 15px 18px;
+  width: 150px;
+}
+
+#tb {
+  padding-top: 30px;
+}
